@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;600&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&family=Varela+Round&display=swap');
+
+*{
+    font-family: 'Assistant', sans-serif;
+}
+
+.tm-icon{
+    width: 50px; 
+    height: 50px;
+    padding: 20px;
+}
+
+.cor-blue
+{ 
+    color: rgb(36, 11, 177);
+}
+/*
+#bg-fundo{
+    background-color: rgb(103, 138, 212);
+}
+*/
+
+.bg-fundo{
+background-image: url(https://img.freepik.com/vetores-gratis/videogame-controla-o-quadro-no-estilo-neon-na-parede-de-tijolo_24908-58914.jpg?t=st=1651186120~exp=1651186720~hmac=d5fd0cd2fa37569eee394bfaf83b071b74236c1662eba3374264e9b47fba020e&w=740);
+background-repeat: no-repeat;
+background-size: cover;
+background: center;
+background-attachment: fixed;
+
+}
+
+
+
+
+p{ 
+    font-size: 20px;
+    color: rgb(48, 69, 255);
+}
+
+#menu li{
+    display: inline;
+    padding:100px
+}
+#menu a {
+text-decoration: none;
+color:rgb(162, 0, 255)
+}
+
+#menu a li:hover{
+    color: rgb(255, 80, 80);
+}
+
+/*logo*/
+
+.logo-j{
+    font-weight: 800;
+    color:rgb(33, 29, 250);
+    font-size: 35px;
+}
+.logo-a{
+    font-weight: 800;
+    color:rgb(253, 22, 22);
+    font-size: 35px;
+}
+
+.flex-conteiner{display:flex;
+    justify-content: center;
+}
+
+.conteiner{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tx{text-align: center;}
+
+
+.tm-img{ width: 400px;
+        height: 500px;    
+        
+}
+
+.subtitle{
+    font-weight: 600;
+    font-size: 24px;
+    color:rgb(252, 10, 43);
+
+}
+
+.br-50{border-radius:max (60%)}
+
+/* rodape*/
+
